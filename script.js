@@ -87,6 +87,6 @@ $(document).ready(function () {
     daySetup.old = dayCount - 0.01;
   }
   
-  UpdateCanvas(new Date("May 13, 2024 14:25:00").getTime(), "#alaska");
+  UpdateCanvas(new Date("May 14, 2024 13:19:00").getTime(), "#alaska");
   
 });
