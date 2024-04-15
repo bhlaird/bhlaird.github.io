@@ -69,7 +69,7 @@ $(document).ready(function () {
     seconds_left = seconds_left % 3600;
 
     weeks = parseInt(days/7);
-    days = days - weeks * 7;
+    days = days - weeks * 7 - 1;
 
     $days.text(days);
     $hours.text(hours);
