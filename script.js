@@ -69,7 +69,6 @@
 
     //weeks = parseInt(days/7);
     weeks = 0;
-    days = days - weeks * 7 - 1;
 
     $days.text(days);
     $hours.text(hours);
