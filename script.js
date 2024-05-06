@@ -1,4 +1,3 @@
-$(document).ready(function () {
   function UpdateCanvas(target_date, target_div) {
  
     var days, hours, weeks;
@@ -88,6 +87,3 @@ $(document).ready(function () {
     daySetup.old = dayCount - 0.01;
   }
   
-  UpdateCanvas(new Date("May 14, 2024 13:19:00").getTime(), "#alaska");
-  
-});
